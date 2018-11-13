@@ -12,8 +12,8 @@ let renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
-let geometry = new THREE.BoxGeometry(1, 1, 1);
-let material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+let geometry = new THREE.BoxGeometry(2, 1, 1);
+let material = new THREE.MeshBasicMaterial({ color: 0x00ff00 }, false);
 let cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
 
