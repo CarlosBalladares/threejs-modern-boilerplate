@@ -1,6 +1,6 @@
 # Three js modern boilerplate
 
-This is a boilerplate for Three js projects. 
+This is a simple boilerplate for Three js projects. 
 It supports:
 - Module imports
 - ES6 syntax
