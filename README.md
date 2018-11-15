@@ -1,10 +1,11 @@
 # Three js modern boilerplate
 
 This is a boilerplate for Three js projects. 
-It uses:
-- ESlint
-- Prettier
-- Parcel
+It supports:
+- Module imports
+- ES6 syntax
+- Development server with parcel 
+- Production builds with parcel
 
 ## To run
 
